@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dimgray;
+  height: 0vh;
+}
+
+#items-wrapper {
+  width: 80vw;
+  height: 70vh;
+  display: grid;
+}
+
+#items {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+#item {
+  flex: none;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: start;
+  pointer-events: none;
+}
+#curso {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

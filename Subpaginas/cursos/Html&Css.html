@@ -5,65 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../../estilo/CSS/style.css" />
+    <link rel="stylesheet" href="../../style/style.css" />
     <script type="text/javascript" href="../backEnd.js"></script>
     <title>Html e Css</title>
   </head>
   <body>
-    <header>
-      <div>
-        <a href="../../index.html">
-          <img src="../../estilo/Imagens/logo.png" alt="logo1" class="logo1"
-        /></a>
-      </div>
-      <div>
+    <header class="header">
+      <a href="../../index.html">
         <img
-          src="../../estilo/Imagens/logo degraus da sabedoria vs2.png"
-          alt="logo2"
-          class="logo2"
-        />
-      </div>
+          src="../../style/img/degraus_da_sabedoria.png"
+          alt="logoDS"
+          class="logoDS"
+      /></a>
       <div>
-        <a href="../Ferramentas.html"
-          ><button class="button">Ferramentas</button></a
-        >
-
-        <a href="../Estudo.html"><button class="button">Estudo</button></a>
-        <a href="../Cursos.html"><button class="button">Cursos</button></a>
-        <a href="https://www.vindeacristo.org/crencas/biblia"
-          ><button class="button">Espiritualidade</button></a
-        >
-        <a href="../RedesSociais.html"
-          ><button class="button">Redes sociais</button></a
-        >
+        <button class="buttonHeader">Login</button>
+        <button class="buttonHeader">Registro</button>
+        <button class="buttonHeader">Contato</button>
       </div>
     </header>
-    <div class="google">
-      <form action="https://www.google.com/search">
-        <label for="q">Oque deseja Pesquisar?</label>
-        <input
-          type="text"
-          id="q"
-          name="q"
-          placeholder="Ex:Aprender inglês"
-          class="button"
-        />
-        <input
-          type="hidden"
-          id="q"
-          name="q"
-          value="degraus da sabedoria"
-          class="button"
-        />
-        <input type="submit" value="Pesquisar" class="button" />
-      </form>
-    </div>
-    <center>
-      <div style="background-color:darkgray">
-      Os <strong>DEGRAUS</strong> para a <strong>SABEDORIA</strong>, está
-      diretamente ligado, ao sentimento de humildade de cada ser humano.
-    </center>
-    <center>
+    <section class="mainContent">
       <div id="items-wrapper">
         <div id="items">
           <div id="item">
@@ -125,6 +85,35 @@
           <div id="item"></div>
         </div>
       </div>
-    </center>
+    </section>
+    <footer class="footer">
+      <div>
+        <p>Degraus da Sabedoria</p>
+        <p>Compyright ©2022</p>
+      </div>
+      <a href="../../index.html">
+        <img
+          src="../../style/img/degraus_da_sabedoria.png"
+          alt="logoDS"
+          class="logoDS"
+      /></a>
+      <div>
+        <img
+          src="../../style/img/instagram.png"
+          alt="instagran"
+          class="imgfooter"
+        />
+        <img
+          src="../../style/img/whatsapp.png"
+          alt="whatsap"
+          class="imgfooter"
+        />
+        <img
+          src="../../style/img/Email-PNG-Image.png"
+          alt="email"
+          class="imgfooter"
+        />
+      </div>
+    </footer>
   </body>
 </html>

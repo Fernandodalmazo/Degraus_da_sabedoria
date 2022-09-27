@@ -4,108 +4,132 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="./estilo/CSS/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Degraus da Sabedoria</title>
   </head>
   <body>
-    
-    <header>
-      <div>
+    <div class="Container">
+      <header class="header">
         <a href="index.html">
-        <img
-          src="./estilo/Imagens/logo.png"
-          alt="logo1"
-          class="logo1"
+          <img
+            src="./style/img/degraus_da_sabedoria.png"
+            alt="logoDS"
+            class="logoDS"
         /></a>
+        <div>
+          <button class="buttonHeader">Login</button>
+          <button class="buttonHeader">Registro</button>
+          <button class="buttonHeader">Contato</button>
+        </div>
+      </header>
+      <div class="divDescription">
+        <p class="description">
+          Suba o primeiro degrau com fé. Não é necessário que você veja toda a
+          escada, apenas dê o primeiro passo.
+        </p>
+        <p class="description">– Martin Luther King</p>
       </div>
-      <div>
-        <img
-          src="./estilo/Imagens/logo degraus da sabedoria vs2.png"
-          alt="logo2"
-          class="logo2"
-        />
-      </div>
-      <div>
-        <a href="./Subpaginas/Ferramentas.html"
-          ><button class="button">Ferramentas</button></a
-        >
-      
-        <a href="./Subpaginas/Estudo.html"
-          ><button class="button">Estudo</button></a
-        >
-        <a href="./Subpaginas/Cursos.html"
-          ><button class="button">Cursos</button></a
-        >
-        <a href="https://www.vindeacristo.org/crencas/biblia"
-          ><button class="button">Espiritualidade</button></a
-        >
-        <a href="./Subpaginas/RedesSociais.html"
-          ><button class="button">Redes sociais</button></a
-        >
-      </div>
-    </header>
 
+      <section class="gridContainer">
+        <div class="mainContent">
+          <div class="maincard">
+            <a href="./Subpaginas/Cursos.html">
+              <img
+                src="./style/img/curso-online.png"
+                alt="Cursos"
+                class="imgcard"
+              />
+            </a>
+            <p>CURSOS</p>
+          </div>
+          <div class="maincard">
+            <img
+              src="./style/img/noticias-globais.png"
+              alt="Noticias"
+              class="imgcard"
+            />
+            <p>NOTÍCIAS</p>
+          </div>
+          <div class="maincard">
+            <img
+              src="./style/img/caixa-de-ferramentas.png"
+              alt="Utilidades"
+              class="imgcard"
+            />
+            <p>UTILIDADES</p>
+          </div>
+          <div class="maincard">
+            <img
+              src="./style/img/equilibrio-mental.png"
+              alt="Mente-Corpo-Alma"
+              class="imgcard"
+            />
+            <p>MENTE-CORPO-ALMA</p>
+          </div>
+          <div class="maincard">
+            <img src="./style/img/no-ar.png" alt="Podcasts" class="imgcard" />
+            <p>PODCASTS</p>
+          </div>
+          <div class="maincard">
+            <img
+              src="./style/img/fundador.png"
+              alt="Fundador"
+              class="imgcard"
+            />
+            <p>FUNDADOR</p>
+          </div>
+        </div>
 
-    <div class="google">
-      <form action="https://www.google.com/search">
-        <label for="q">Oque deseja Pesquisar?</label>
-        <input
-          type="text"
-          id="q"
-          name="q"
-          placeholder="Ex:Aprender inglês"
-          class="button"
-        />
-        <input
-          type="hidden"
-          id="q"
-          name="q"
-          value="degraus da sabedoria"
-          class="button"
-        />
-        <input type="submit" value="Pesquisar" class="button" />
-      </form>
-    </div>
-    <div >
-
-     
-      
-   
-
-   
-      <center>
-        <div style="background-color:darkgray">
-        Os <strong>DEGRAUS</strong> para a <strong>SABEDORIA</strong>, está
-        diretamente ligado, ao sentimento de humildade de cada ser humano.
-      </center>
-    </div>
-    <div >
-      <center>
-        <iframe
-          width="640"
-          height="360"
-          src="https://www.youtube.com/embed/zTpFimqdEOI"
-          title="5 DEGRAUS PARA ALCANÇAR A SABEDORIA VÍDEO MOTIVACIONAL (Motivação)"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </center>
-    
-     
-     
-    </div>
-    <div >
-      <center>
-        <img
-          src="https://cdn.pensador.com/img/frase/de/ls/delson_jacinto_os_degraus_da_sabedoria_sao_feitos_de_si_l00yww9.jpg"
-          alt="Delson Jacinto Vieira"
-          width="640"
-          height="350"
-          align="middle"
-        />
-      </center>
+        <div class="sidebarContent">
+          <div class="cardnotice">
+            <a
+              href="https://revista.abrale.org.br/saiba-quando-procurar-um-psiquiatra/"
+            >
+              <img
+                src="./style/img/quando-procurar-um-psiquiatra.png"
+                alt="cardnotice"
+                class="imgNotice"
+            /></a>
+            <p class="textCard">Saiba quando procurar um psiquiatra</p>
+          </div>
+          <div class="cardnotice">
+            <a
+              href="https://saude.abril.com.br/coluna/com-a-palavra/como-cultivar-a-resiliencia/"
+            >
+              <img
+                src="./style/img/mente-saudavel-resiliencia.png"
+                alt="cardnotice"
+                class="imgNotice"
+            /></a>
+            <p class="textCard">Como cultivar a resiliência</p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div>
+          <p>Degraus da Sabedoria</p>
+          <p>Compyright ©2022</p>
+        </div>
+        <a href="index.html">
+          <img
+            src="./style/img/degraus_da_sabedoria.png"
+            alt="logoDS"
+            class="logoDS"
+        /></a>
+        <div>
+          <img
+            src="./style/img/instagram.png"
+            alt="instagran"
+            class="imgfooter"
+          />
+          <img src="./style/img/whatsapp.png" alt="whatsap" class="imgfooter" />
+          <img
+            src="./style/img/Email-PNG-Image.png"
+            alt="email"
+            class="imgfooter"
+          />
+        </div>
+      </footer>
     </div>
   </body>
 </html>
